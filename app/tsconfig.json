@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    "target": "es6",
+    "lib": [ "es2019" ],
+    "outDir": "compile",
+  },
+  "references": [
+    { "path": "../mixins" }
+  ]
+}
